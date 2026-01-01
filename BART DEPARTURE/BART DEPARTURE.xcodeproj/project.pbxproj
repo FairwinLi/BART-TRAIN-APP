@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F678FB12EF4B26E009F55F4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F678FB02EF4B26E009F55F4 /* WidgetKit.framework */; };
+		9F678FB32EF4B26E009F55F4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F678FB22EF4B26E009F55F4 /* SwiftUI.framework */; };
+		9F678FC42EF4B26F009F55F4 /* BART WIDGETExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9F678FAE2EF4B26E009F55F4 /* BART WIDGETExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F678EAD2EF4A594009F55F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F678E972EF4A593009F55F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F678E9E2EF4A593009F55F4;
+			remoteInfo = "BART DEPARTURE";
+		};
+		9F678EB72EF4A594009F55F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F678E972EF4A593009F55F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F678E9E2EF4A593009F55F4;
+			remoteInfo = "BART DEPARTURE";
+		};
+		9F678FC22EF4B26F009F55F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F678E972EF4A593009F55F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F678FAD2EF4B26E009F55F4;
+			remoteInfo = "BART WIDGETExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F678FC92EF4B26F009F55F4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9F678FC42EF4B26F009F55F4 /* BART WIDGETExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9F678E9F2EF4A593009F55F4 /* BART DEPARTURE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BART DEPARTURE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F678EAC2EF4A594009F55F4 /* BART DEPARTURETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BART DEPARTURETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F678EB62EF4A594009F55F4 /* BART DEPARTUREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BART DEPARTUREUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F678FAE2EF4B26E009F55F4 /* BART WIDGETExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BART WIDGETExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F678FB02EF4B26E009F55F4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9F678FB22EF4B26E009F55F4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9F6790552F05FC32009F55F4 /* BART WIDGETExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BART WIDGETExtension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9F678F482EF4A860009F55F4 /* Exceptions for "BART DEPARTURE" folder in "BART DEPARTURE" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9F678E9E2EF4A593009F55F4 /* BART DEPARTURE */;
+		};
+		9F678FC82EF4B26F009F55F4 /* Exceptions for "BART WIDGET" folder in "BART WIDGETExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9F678FAD2EF4B26E009F55F4 /* BART WIDGETExtension */;
+		};
+		9F67904E2F05F55C009F55F4 /* Exceptions for "BART DEPARTURE" folder in "BART WIDGETExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Platform.swift,
+				Models/Station.swift,
+				Models/Train.swift,
+				Services/BARTAPIService.swift,
+				Services/SharedLocationManager.swift,
+				Views/LargeWidget.swift,
+				Views/MediumWidget.swift,
+			);
+			target = 9F678FAD2EF4B26E009F55F4 /* BART WIDGETExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9F678EA12EF4A593009F55F4 /* BART DEPARTURE */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9F678F482EF4A860009F55F4 /* Exceptions for "BART DEPARTURE" folder in "BART DEPARTURE" target */,
+				9F67904E2F05F55C009F55F4 /* Exceptions for "BART DEPARTURE" folder in "BART WIDGETExtension" target */,
+			);
+			path = "BART DEPARTURE";
+			sourceTree = "<group>";
+		};
+		9F678FB42EF4B26E009F55F4 /* BART WIDGET */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9F678FC82EF4B26F009F55F4 /* Exceptions for "BART WIDGET" folder in "BART WIDGETExtension" target */,
+			);
+			path = "BART WIDGET";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F678E9C2EF4A593009F55F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678EA92EF4A594009F55F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678EB32EF4A594009F55F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678FAB2EF4B26E009F55F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F678FB32EF4B26E009F55F4 /* SwiftUI.framework in Frameworks */,
+				9F678FB12EF4B26E009F55F4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F678E962EF4A593009F55F4 = {
+			isa = PBXGroup;
+			children = (
+				9F6790552F05FC32009F55F4 /* BART WIDGETExtension.entitlements */,
+				9F678EA12EF4A593009F55F4 /* BART DEPARTURE */,
+				9F678FB42EF4B26E009F55F4 /* BART WIDGET */,
+				9F678FAF2EF4B26E009F55F4 /* Frameworks */,
+				9F678EA02EF4A593009F55F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F678EA02EF4A593009F55F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F678E9F2EF4A593009F55F4 /* BART DEPARTURE.app */,
+				9F678EAC2EF4A594009F55F4 /* BART DEPARTURETests.xctest */,
+				9F678EB62EF4A594009F55F4 /* BART DEPARTUREUITests.xctest */,
+				9F678FAE2EF4B26E009F55F4 /* BART WIDGETExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F678FAF2EF4B26E009F55F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F678FB02EF4B26E009F55F4 /* WidgetKit.framework */,
+				9F678FB22EF4B26E009F55F4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F678E9E2EF4A593009F55F4 /* BART DEPARTURE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F678EC02EF4A594009F55F4 /* Build configuration list for PBXNativeTarget "BART DEPARTURE" */;
+			buildPhases = (
+				9F678E9B2EF4A593009F55F4 /* Sources */,
+				9F678E9C2EF4A593009F55F4 /* Frameworks */,
+				9F678E9D2EF4A593009F55F4 /* Resources */,
+				9F678FC92EF4B26F009F55F4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F678FC32EF4B26F009F55F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9F678EA12EF4A593009F55F4 /* BART DEPARTURE */,
+			);
+			name = "BART DEPARTURE";
+			packageProductDependencies = (
+			);
+			productName = "BART DEPARTURE";
+			productReference = 9F678E9F2EF4A593009F55F4 /* BART DEPARTURE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F678EAB2EF4A594009F55F4 /* BART DEPARTURETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F678EC32EF4A594009F55F4 /* Build configuration list for PBXNativeTarget "BART DEPARTURETests" */;
+			buildPhases = (
+				9F678EA82EF4A594009F55F4 /* Sources */,
+				9F678EA92EF4A594009F55F4 /* Frameworks */,
+				9F678EAA2EF4A594009F55F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F678EAE2EF4A594009F55F4 /* PBXTargetDependency */,
+			);
+			name = "BART DEPARTURETests";
+			packageProductDependencies = (
+			);
+			productName = "BART DEPARTURETests";
+			productReference = 9F678EAC2EF4A594009F55F4 /* BART DEPARTURETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F678EB52EF4A594009F55F4 /* BART DEPARTUREUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F678EC62EF4A594009F55F4 /* Build configuration list for PBXNativeTarget "BART DEPARTUREUITests" */;
+			buildPhases = (
+				9F678EB22EF4A594009F55F4 /* Sources */,
+				9F678EB32EF4A594009F55F4 /* Frameworks */,
+				9F678EB42EF4A594009F55F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F678EB82EF4A594009F55F4 /* PBXTargetDependency */,
+			);
+			name = "BART DEPARTUREUITests";
+			packageProductDependencies = (
+			);
+			productName = "BART DEPARTUREUITests";
+			productReference = 9F678EB62EF4A594009F55F4 /* BART DEPARTUREUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9F678FAD2EF4B26E009F55F4 /* BART WIDGETExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F678FC52EF4B26F009F55F4 /* Build configuration list for PBXNativeTarget "BART WIDGETExtension" */;
+			buildPhases = (
+				9F678FAA2EF4B26E009F55F4 /* Sources */,
+				9F678FAB2EF4B26E009F55F4 /* Frameworks */,
+				9F678FAC2EF4B26E009F55F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9F678FB42EF4B26E009F55F4 /* BART WIDGET */,
+			);
+			name = "BART WIDGETExtension";
+			packageProductDependencies = (
+			);
+			productName = "BART WIDGETExtension";
+			productReference = 9F678FAE2EF4B26E009F55F4 /* BART WIDGETExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F678E972EF4A593009F55F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					9F678E9E2EF4A593009F55F4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					9F678EAB2EF4A594009F55F4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9F678E9E2EF4A593009F55F4;
+					};
+					9F678EB52EF4A594009F55F4 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9F678E9E2EF4A593009F55F4;
+					};
+					9F678FAD2EF4B26E009F55F4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 9F678E9A2EF4A593009F55F4 /* Build configuration list for PBXProject "BART DEPARTURE" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F678E962EF4A593009F55F4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9F678EA02EF4A593009F55F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F678E9E2EF4A593009F55F4 /* BART DEPARTURE */,
+				9F678EAB2EF4A594009F55F4 /* BART DEPARTURETests */,
+				9F678EB52EF4A594009F55F4 /* BART DEPARTUREUITests */,
+				9F678FAD2EF4B26E009F55F4 /* BART WIDGETExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F678E9D2EF4A593009F55F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678EAA2EF4A594009F55F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678EB42EF4A594009F55F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678FAC2EF4B26E009F55F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F678E9B2EF4A593009F55F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678EA82EF4A594009F55F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678EB22EF4A594009F55F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F678FAA2EF4B26E009F55F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F678EAE2EF4A594009F55F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F678E9E2EF4A593009F55F4 /* BART DEPARTURE */;
+			targetProxy = 9F678EAD2EF4A594009F55F4 /* PBXContainerItemProxy */;
+		};
+		9F678EB82EF4A594009F55F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F678E9E2EF4A593009F55F4 /* BART DEPARTURE */;
+			targetProxy = 9F678EB72EF4A594009F55F4 /* PBXContainerItemProxy */;
+		};
+		9F678FC32EF4B26F009F55F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F678FAD2EF4B26E009F55F4 /* BART WIDGETExtension */;
+			targetProxy = 9F678FC22EF4B26F009F55F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F678EBE2EF4A594009F55F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F678EBF2EF4A594009F55F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F678EC12EF4A594009F55F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BART DEPARTURE/BART DEPARTURE.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find the nearest train station";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FAIRWIN.BART-DEPARTURE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F678EC22EF4A594009F55F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BART DEPARTURE/BART DEPARTURE.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find the nearest train station";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FAIRWIN.BART-DEPARTURE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F678EC42EF4A594009F55F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FAIRWIN.BART-DEPARTURETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BART DEPARTURE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BART DEPARTURE";
+			};
+			name = Debug;
+		};
+		9F678EC52EF4A594009F55F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FAIRWIN.BART-DEPARTURETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BART DEPARTURE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BART DEPARTURE";
+			};
+			name = Release;
+		};
+		9F678EC72EF4A594009F55F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FAIRWIN.BART-DEPARTUREUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BART DEPARTURE";
+			};
+			name = Debug;
+		};
+		9F678EC82EF4A594009F55F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FAIRWIN.BART-DEPARTUREUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BART DEPARTURE";
+			};
+			name = Release;
+		};
+		9F678FC62EF4B26F009F55F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "BART WIDGETExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BART WIDGET/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BART WIDGET";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FAIRWIN.BART-DEPARTURE.BART-WIDGET";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F678FC72EF4B26F009F55F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "BART WIDGETExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BART WIDGET/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BART WIDGET";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FAIRWIN.BART-DEPARTURE.BART-WIDGET";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F678E9A2EF4A593009F55F4 /* Build configuration list for PBXProject "BART DEPARTURE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F678EBE2EF4A594009F55F4 /* Debug */,
+				9F678EBF2EF4A594009F55F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F678EC02EF4A594009F55F4 /* Build configuration list for PBXNativeTarget "BART DEPARTURE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F678EC12EF4A594009F55F4 /* Debug */,
+				9F678EC22EF4A594009F55F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F678EC32EF4A594009F55F4 /* Build configuration list for PBXNativeTarget "BART DEPARTURETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F678EC42EF4A594009F55F4 /* Debug */,
+				9F678EC52EF4A594009F55F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F678EC62EF4A594009F55F4 /* Build configuration list for PBXNativeTarget "BART DEPARTUREUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F678EC72EF4A594009F55F4 /* Debug */,
+				9F678EC82EF4A594009F55F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F678FC52EF4B26F009F55F4 /* Build configuration list for PBXNativeTarget "BART WIDGETExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F678FC62EF4B26F009F55F4 /* Debug */,
+				9F678FC72EF4B26F009F55F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F678E972EF4A593009F55F4 /* Project object */;
+}
